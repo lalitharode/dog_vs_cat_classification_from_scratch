@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, flash
 from src.pipeline.prediction_pipeline import PredictPipeline
 import os
 
+
 application=Flask(__name__)
 
 app=application 
